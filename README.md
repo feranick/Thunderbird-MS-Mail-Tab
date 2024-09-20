@@ -1,5 +1,5 @@
 # Microsoft Mail Tab
-Unofficial GMail add-on for Thunderbird, it adds a button that opens a GMail tab in Thunderbird.
+Unofficial MIcrosoft Mail add-on for Thunderbird, it adds a button that opens a Microsoft Mail tab in Thunderbird.
 The [home page](https://addons.mozilla.org/thunderbird/addon/msmailtab/) of the extension contains some pictures and reviews.
 
 #### Installing 

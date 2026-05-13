@@ -1,29 +1,31 @@
 {
   "manifest_version": 2,
-  "name": "Microsoft Mail Tab",
+  "name": "MS Mail Tab",
   "description": "__MSG_extensionDescription__",
-  "version": "0.1.7",
+  "version": "0.3",
   "author": "Nicola Ferralis",
   "homepage_url": "https://github.com/feranick/Thunderbird-MS-Mail-Tab/",
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "feranick.ms-mail-tab@addons.thunderbird.net",
-      "strict_min_version": "78.0"
+      "strict_min_version": "106.0"
     }
-  },
+  },  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.microsoft.com/*"
+  ],
   "default_locale": "en",
   "icons": {
+    "32": "skin/ms_mail_icon.svg",
     "48": "skin/ms_mail_icon.svg",
     "96": "skin/ms_mail_icon.svg"
   },
-  "browser_action": {
-    "allowed_spaces": [ "mail", "calendar", "chat", "tasks", "addressbook" ],
-    "default_title": "Microsoft Mail",
-    "default_icon": "skin/ms_mail_icon.svg"
-  },
   "background": {
     "scripts": [
-      "src/background.js"
+      "redirect.js"
     ]
   }
 }
+

@@ -1,6 +1,14 @@
 {
+  "extensionName": {
+    "message": "MS Mail-Tab",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
-    "message": "Fügt eine Schaltfläche zum Öffnen von Microsoft Mail in einem neuen Tab hinzu.",
+    "message": "Fügt eine Schaltfläche hinzu, um Microsoft Mail in einem neuen Tab zu öffnen.",
     "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Microsoft Mail",
+    "description": "Hover title for the Spaces Toolbar button."
   }
 }

@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "MS Mail Tab",
+    "message": "Onglet MS Mail",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Adds a button to open Microsoft Mail in a new tab.",
+    "message": "Ajoute un bouton pour ouvrir Microsoft Mail dans un nouvel onglet.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {

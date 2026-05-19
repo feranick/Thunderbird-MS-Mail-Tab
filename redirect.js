@@ -1,5 +1,5 @@
 browser.spacesToolbar.addButton('MSMail', {
-    title: "Microsoft Mail",
+    title: browser.i18n.getMessage("toolbarButtonTitle"),
     defaultIcons: "skin/ms_mail_icon.svg",
     url: "https://login.live.com/"
 });

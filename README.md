@@ -1,6 +1,6 @@
 # Microsoft Mail Tab
 Unofficial Microsoft Mail add-on for Thunderbird, it adds a button in Spaces that opens a Microsoft Mail tab in Thunderbird.
-The [home page](https://addons.mozilla.org/thunderbird/addon/msmailtab/) of the extension contains some pictures and reviews.
+The [home page](https://addons.thunderbird.net/en-US/thunderbird/addon/ms-mail-spaces-tab/) of the extension contains the latest code.
 
 #### Installing 
 A new Microsoft Mail icon should appear in the Spaces Toolbar of Thunderbird. Click to open.

@@ -1,6 +1,14 @@
 {
+  "extensionName": {
+    "message": "Pestaña de MS Mail",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
-    "message": "Añade un botón que abre Microsoft Mail en una pestaña nueva.",
+    "message": "Añade un botón para abrir Microsoft Mail en una nueva pestaña.",
     "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Microsoft Mail",
+    "description": "Hover title for the Spaces Toolbar button."
   }
 }

@@ -4,11 +4,45 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Aggiunge un bottone per aprire Microsoft Mail in una nuova tab.",
+    "message": "Aggiunge un pulsante per aprire Microsoft Mail in una nuova scheda.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {
     "message": "Microsoft Mail",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Impostazioni della scheda MS Mail",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Mostra notifiche per le nuove email",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "Se attivato, viene mostrata una notifica sul desktop quando aumenta il numero di email non lette in Microsoft Mail.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsStatusSaved": {
+    "message": "Salvato.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Microsoft Mail",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationNewEmailSingle": {
+    "message": "Hai una nuova email.",
+    "description": "Notification body for a single new email."
+  },
+  "notificationNewEmailMultiple": {
+    "message": "Hai $COUNT$ email non lette.",
+    "description": "Notification body for multiple unread emails.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
   }
 }

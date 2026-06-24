@@ -10,5 +10,39 @@
   "toolbarButtonTitle": {
     "message": "Microsoft Mail",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Paramètres de l'onglet MS Mail",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Afficher les notifications pour les nouveaux courriels",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "Lorsque cette option est activée, une notification de bureau apparaît lorsque le nombre de courriels non lus dans Microsoft Mail augmente.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsStatusSaved": {
+    "message": "Enregistré.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Microsoft Mail",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationNewEmailSingle": {
+    "message": "Vous avez un nouveau courriel.",
+    "description": "Notification body for a single new email."
+  },
+  "notificationNewEmailMultiple": {
+    "message": "Vous avez $COUNT$ courriels non lus.",
+    "description": "Notification body for multiple unread emails.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
   }
 }
